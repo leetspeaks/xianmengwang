@@ -1,0 +1,687 @@
+/* line 5, C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 5, ../sass/index.scss */
+.banner1 {
+  width: 100%;
+  overflow: hidden;
+}
+/* line 8, ../sass/index.scss */
+.banner1 img {
+  cursor: pointer;
+  width: 100%;
+  height: 440px;
+}
+/* line 13, ../sass/index.scss */
+.banner1.swiper-container-horizontal > .swiper-pagination-bullets, .banner1 .swiper-pagination-custom,
+.banner1 .swiper-pagination-fraction {
+  width: 15%;
+  margin-left: -100px;
+  left: 50%;
+  border-radius: 50px;
+  background: rgba(255, 255, 255, 0.9);
+}
+/* line 21, ../sass/index.scss */
+.banner1.swiper-container-horizontal > .swiper-pagination-bullets
+.swiper-pagination-bullet {
+  width: 20px;
+  height: 20px;
+  margin: 2px 6px;
+  background: black;
+}
+/* line 28, ../sass/index.scss */
+.banner1.swiper-container-horizontal > .swiper-pagination-bullets
+.swiper-pagination-bullet-active {
+  background: rgba(230, 8, 8, 0.5);
+}
+
+/* line 35, ../sass/index.scss */
+.recommend-right {
+  width: 1004px;
+  height: 178px;
+  border: 1px solid #DDDDDD;
+  border-left: 0;
+  position: relative;
+  overflow: hidden;
+}
+/* line 42, ../sass/index.scss */
+.recommend-right ul {
+  width: 1500px;
+  height: 170px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  animation: animate 2s linear 0s infinite normal;
+}
+/* line 49, ../sass/index.scss */
+.recommend-right ul:hover {
+  animation-play-state: paused;
+}
+/* line 52, ../sass/index.scss */
+.recommend-right ul li {
+  width: 247px;
+  height: 170px;
+  display: inline-block;
+  cursor: pointer;
+  margin-top: 3px;
+  border-right: 1px solid #DDDDDD;
+}
+/* line 59, ../sass/index.scss */
+.recommend-right ul li .left-img {
+  margin-left: 28px;
+  height: 175px;
+}
+/* line 63, ../sass/index.scss */
+.recommend-right ul li .right-text {
+  width: 118px;
+  margin-top: 10px;
+  line-height: 18px;
+}
+/* line 67, ../sass/index.scss */
+.recommend-right ul li .right-text .price {
+  color: red;
+  font-size: 16px;
+  padding: 20px 0;
+}
+/* line 72, ../sass/index.scss */
+.recommend-right ul li .right-text button {
+  color: #666666;
+  padding: 5px;
+}
+
+@keyframes animate {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-248px);
+  }
+}
+/* line 92, ../sass/index.scss */
+.store-title {
+  width: 112px;
+  height: 25px;
+  text-align: center;
+  border-bottom: 3px solid #FF7200;
+}
+/* line 97, ../sass/index.scss */
+.store-title h2 {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+/* line 102, ../sass/index.scss */
+.store-msg {
+  height: 200px;
+  border: 1px solid #DDDDDD;
+}
+/* line 105, ../sass/index.scss */
+.store-msg dl {
+  width: 260px;
+  float: left;
+  margin: 18px;
+}
+/* line 109, ../sass/index.scss */
+.store-msg dl dt {
+  font-size: 18px;
+}
+/* line 112, ../sass/index.scss */
+.store-msg dl dd {
+  float: left;
+  padding-top: 10px;
+  padding-right: 14px;
+}
+/* line 116, ../sass/index.scss */
+.store-msg dl dd a {
+  color: #a1a1a1;
+}
+/* line 118, ../sass/index.scss */
+.store-msg dl dd a:hover {
+  color: #FF7200;
+}
+
+/* line 127, ../sass/index.scss */
+.news {
+  width: 258px;
+  height: 280px;
+  border: 1px solid #DDDDDD;
+}
+/* line 131, ../sass/index.scss */
+.news .news-title {
+  background: #F4F4F4;
+}
+/* line 133, ../sass/index.scss */
+.news .news-title li {
+  float: left;
+  width: 129px;
+  cursor: pointer;
+  line-height: 30px;
+  display: block;
+  text-align: center;
+  font-size: 14px;
+  border-bottom: 1px solid #DDDDDD;
+}
+/* line 142, ../sass/index.scss */
+.news .news-title li.cur {
+  border-bottom: none;
+  border-top: 2px solid #FF7200;
+  background: #fff;
+  color: #FF7200;
+}
+/* line 150, ../sass/index.scss */
+.news .news-content {
+  position: relative;
+}
+/* line 152, ../sass/index.scss */
+.news .news-content .news-contentMain {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 15px;
+  line-height: 20px;
+  opacity: 0;
+  transition: all .5s;
+}
+/* line 160, ../sass/index.scss */
+.news .news-content .news-contentMain.hovers {
+  opacity: 1;
+}
+
+/* line 166, ../sass/index.scss */
+.hot {
+  width: 920px;
+  height: 280px;
+  position: relative;
+  border: 1px solid #DDDDDD;
+}
+/* line 171, ../sass/index.scss */
+.hot .hot-title {
+  border-bottom: 1px solid #DDDDDD;
+}
+/* line 173, ../sass/index.scss */
+.hot .hot-title h2 {
+  font-size: 16px;
+  line-height: 40px;
+  position: relative;
+  padding-left: 25px;
+}
+/* line 178, ../sass/index.scss */
+.hot .hot-title h2::before {
+  position: absolute;
+  width: 6px;
+  height: 22px;
+  background: #FF7200;
+  display: block;
+  content: "";
+  top: 10px;
+  left: 10px;
+}
+/* line 191, ../sass/index.scss */
+.hot .hot-msg li {
+  width: 217px;
+  display: inline-block;
+  padding: 0 5px;
+}
+/* line 196, ../sass/index.scss */
+.hot .hot-msg li:hover p {
+  color: #FF7200;
+}
+/* line 200, ../sass/index.scss */
+.hot .hot-msg li .hot-img {
+  margin-left: 10px;
+  width: 196px;
+  height: 166px;
+  overflow: hidden;
+}
+/* line 206, ../sass/index.scss */
+.hot .hot-msg li .hot-img:hover img {
+  transform: scale(1.2);
+}
+/* line 210, ../sass/index.scss */
+.hot .hot-msg li .hot-img img {
+  width: 100%;
+  transition: all .5s;
+}
+/* line 215, ../sass/index.scss */
+.hot .hot-msg li p {
+  margin-bottom: 5px;
+  margin-left: 4px;
+  line-height: 18px;
+}
+/* line 220, ../sass/index.scss */
+.hot .hot-msg li .price {
+  color: red;
+  font-size: 16px;
+}
+/* line 224, ../sass/index.scss */
+.hot .hot-msg li .num {
+  color: red;
+}
+/* line 228, ../sass/index.scss */
+.hot .hot-msg .pad {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+}
+/* line 232, ../sass/index.scss */
+.hot .hot-msg .pad .swiper-pagination-bullet {
+  width: 16px;
+  height: 16px;
+  border-radius: 0;
+  margin-right: 10px;
+}
+/* line 238, ../sass/index.scss */
+.hot .hot-msg .pad .swiper-pagination-bullet-active {
+  background: #FF6600;
+}
+
+/* line 246, ../sass/index.scss */
+.promotion-title {
+  height: 30px;
+}
+/* line 249, ../sass/index.scss */
+.promotion-title .text img {
+  vertical-align: middle;
+}
+/* line 252, ../sass/index.scss */
+.promotion-title .text .limit {
+  display: inline-block;
+  font-size: 18px;
+  vertical-align: middle;
+}
+/* line 258, ../sass/index.scss */
+.promotion-title .more {
+  margin-top: 10px;
+}
+/* line 261, ../sass/index.scss */
+.promotion-title .more a:hover {
+  color: #FF6600;
+}
+
+/* line 267, ../sass/index.scss */
+.promotion-content {
+  width: 100%;
+  border: 1px solid #DDDDDD;
+  border-top: 3px solid #FF6600;
+}
+/* line 271, ../sass/index.scss */
+.promotion-content li {
+  width: 237px;
+  padding-top: 5px;
+  text-align: center;
+  display: inline-block;
+}
+/* line 277, ../sass/index.scss */
+.promotion-content li:hover p {
+  color: #FF6600;
+}
+/* line 281, ../sass/index.scss */
+.promotion-content li .promotion-img {
+  width: 186px;
+  height: 200px;
+  margin-left: 25px;
+  overflow: hidden;
+}
+/* line 287, ../sass/index.scss */
+.promotion-content li .promotion-img:hover img {
+  transform: scale(1.2);
+}
+/* line 291, ../sass/index.scss */
+.promotion-content li .promotion-img img {
+  width: 100%;
+  transition: all 0.5s;
+}
+/* line 296, ../sass/index.scss */
+.promotion-content li .promotion-msg {
+  text-align: left;
+  margin-left: 15px;
+  height: 100px;
+  line-height: 18px;
+  border-right: 1px solid #DDDDDD;
+}
+/* line 302, ../sass/index.scss */
+.promotion-content li .promotion-msg .msg-title {
+  margin: 5px 0;
+}
+/* line 305, ../sass/index.scss */
+.promotion-content li .promotion-msg .price-before {
+  font-size: 20px;
+  font-weight: bold;
+  color: #FF3300;
+}
+/* line 310, ../sass/index.scss */
+.promotion-content li .promotion-msg .price-after {
+  color: #ccc;
+  font-size: 16px;
+  margin-left: 10px;
+  text-decoration: line-through;
+}
+/* line 316, ../sass/index.scss */
+.promotion-content li .promotion-msg .count {
+  width: 204px;
+  background: #FF7200;
+  text-align: center;
+}
+/* line 320, ../sass/index.scss */
+.promotion-content li .promotion-msg .count p {
+  color: #fff;
+  font-size: 16px;
+  padding: 5px 0;
+}
+/* line 324, ../sass/index.scss */
+.promotion-content li .promotion-msg .count p span {
+  color: #fff;
+}
+
+/* line 334, ../sass/index.scss */
+.floor-title {
+  height: 40px;
+}
+/* line 336, ../sass/index.scss */
+.floor-title span {
+  width: 47px;
+  height: 40px;
+  text-align: center;
+  color: #fff;
+  font-size: 18px;
+  line-height: 40px;
+  background: #FF7200;
+}
+/* line 345, ../sass/index.scss */
+.floor-title li {
+  margin-left: 20px;
+  line-height: 40px;
+}
+/* line 349, ../sass/index.scss */
+.floor-title li a:hover {
+  color: #FF6600;
+}
+
+/* line 355, ../sass/index.scss */
+.floor-msg {
+  border: 1px solid #DDDDDD;
+  border-top: 3px solid #FF6600;
+}
+/* line 359, ../sass/index.scss */
+.floor-msg .msg-left {
+  width: 394px;
+  height: 470px;
+  overflow: hidden;
+  position: relative;
+}
+/* line 365, ../sass/index.scss */
+.floor-msg .msg-left .inner ul {
+  width: 1000%;
+  top: 0;
+  left: 0;
+  position: absolute;
+}
+/* line 370, ../sass/index.scss */
+.floor-msg .msg-left .inner ul li {
+  width: 396px;
+  height: 470px;
+  float: left;
+}
+/* line 374, ../sass/index.scss */
+.floor-msg .msg-left .inner ul li img {
+  width: 100%;
+  height: 100%;
+}
+/* line 381, ../sass/index.scss */
+.floor-msg .msg-left .bar {
+  position: absolute;
+  bottom: 20px;
+  width: 100px;
+  height: 20px;
+  left: 50%;
+  margin-left: -50px;
+  border-radius: 30px;
+  background: black;
+  opacity: .5;
+}
+/* line 391, ../sass/index.scss */
+.floor-msg .msg-left .bar li {
+  width: 10px;
+  height: 10px;
+  float: left;
+  font-size: 0%;
+  margin: 4px 6px;
+  text-align: center;
+  border-radius: 50%;
+  background: #fff;
+}
+/* line 400, ../sass/index.scss */
+.floor-msg .msg-left .bar li:first-child {
+  margin-left: 30px;
+}
+/* line 403, ../sass/index.scss */
+.floor-msg .msg-left .bar li.active {
+  background: #f05704;
+}
+/* line 408, ../sass/index.scss */
+.floor-msg .msg-left .btns {
+  display: none;
+}
+/* line 410, ../sass/index.scss */
+.floor-msg .msg-left .btns .left-btn, .floor-msg .msg-left .btns .right-btn {
+  display: block;
+  position: absolute;
+  width: 35px;
+  height: 60px;
+  background: black;
+  color: #fff;
+  opacity: .5;
+  top: 50%;
+  margin-top: -30px;
+  text-align: center;
+  line-height: 60px;
+  font-size: 20px;
+}
+/* line 424, ../sass/index.scss */
+.floor-msg .msg-left .btns .left-btn {
+  left: 0;
+}
+/* line 427, ../sass/index.scss */
+.floor-msg .msg-left .btns .right-btn {
+  right: 0;
+}
+/* line 432, ../sass/index.scss */
+.floor-msg .msg-left:hover .btns {
+  display: block;
+}
+/* line 437, ../sass/index.scss */
+.floor-msg .msg-right {
+  width: 804px;
+}
+/* line 439, ../sass/index.scss */
+.floor-msg .msg-right li {
+  border: 1px solid #DDDDDD;
+  border-top: none;
+  border-right: none;
+  width: 200px;
+  text-align: center;
+  float: left;
+}
+/* line 446, ../sass/index.scss */
+.floor-msg .msg-right li .right-img {
+  width: 196px;
+  height: 166px;
+  padding-top: 1px;
+  margin-left: 2px;
+  overflow: hidden;
+}
+/* line 453, ../sass/index.scss */
+.floor-msg .msg-right li .right-img:hover img {
+  transform: scale(1.2);
+}
+/* line 457, ../sass/index.scss */
+.floor-msg .msg-right li .right-img img {
+  width: 100%;
+  transition: all .5s;
+}
+/* line 462, ../sass/index.scss */
+.floor-msg .msg-right li p {
+  padding: 7px 0;
+}
+/* line 465, ../sass/index.scss */
+.floor-msg .msg-right li .price {
+  padding: 20px 0 5px 0;
+  text-align: left;
+}
+/* line 468, ../sass/index.scss */
+.floor-msg .msg-right li .price span {
+  padding: 0 10px;
+  color: red;
+  font-size: 16px;
+}
+/* line 473, ../sass/index.scss */
+.floor-msg .msg-right li .price .num {
+  color: #222;
+  font-size: 12px;
+  padding-left: 35px;
+}
+/* line 477, ../sass/index.scss */
+.floor-msg .msg-right li .price .num i {
+  font-size: 8px;
+  color: red;
+}
+/* line 484, ../sass/index.scss */
+.floor-msg .msg-right li:hover p {
+  color: #FF3300;
+}
+
+/* line 495, ../sass/index.scss */
+.like .like-title {
+  border-bottom: 1px solid #DDDDDD;
+}
+/* line 497, ../sass/index.scss */
+.like .like-title .title {
+  font-size: 18px;
+  text-align: center;
+  width: 116px;
+  margin: 0 auto;
+  line-height: 30px;
+  border-bottom: 3px solid #FF3300;
+}
+/* line 507, ../sass/index.scss */
+.like .like-msg li {
+  width: 280px;
+  margin: 15px 9px;
+  float: left;
+  border: 1px solid #DDDDDD;
+}
+/* line 512, ../sass/index.scss */
+.like .like-msg li:hover {
+  border-color: #FF3300;
+}
+/* line 514, ../sass/index.scss */
+.like .like-msg li:hover p {
+  color: #FF3300;
+}
+/* line 518, ../sass/index.scss */
+.like .like-msg li .like-foods {
+  width: 256px;
+  display: block;
+  margin: 0 auto;
+  padding-top: 10px;
+}
+/* line 523, ../sass/index.scss */
+.like .like-msg li .like-foods .foods-img {
+  width: 256px;
+  height: 220px;
+  overflow: hidden;
+}
+/* line 528, ../sass/index.scss */
+.like .like-msg li .like-foods .foods-img:hover img {
+  transform: scale(1.2);
+}
+/* line 532, ../sass/index.scss */
+.like .like-msg li .like-foods .foods-img img {
+  width: 100%;
+  transition: all .5s;
+}
+/* line 537, ../sass/index.scss */
+.like .like-msg li .like-foods p {
+  font-size: 14px;
+  line-height: 20px;
+}
+/* line 541, ../sass/index.scss */
+.like .like-msg li .like-foods .price {
+  padding: 20px 0 10px 0;
+}
+/* line 543, ../sass/index.scss */
+.like .like-msg li .like-foods .price span {
+  font-size: 16px;
+  color: red;
+}
+/* line 547, ../sass/index.scss */
+.like .like-msg li .like-foods .price .num {
+  color: #666;
+  font-size: 10px;
+}
+/* line 550, ../sass/index.scss */
+.like .like-msg li .like-foods .price .num i {
+  color: red;
+}

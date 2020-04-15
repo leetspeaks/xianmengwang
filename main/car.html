@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="./stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" />
+    <link href="./stylesheets/print.css" media="print" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="./stylesheets/car.css">
+    <link rel="stylesheet" href="../css/iconfont.css">
+    <title>购物车</title>
+    <script src="../js/jquery.js"></script>
+    <script src="../js/index.js"></script>
+    <script src="../js/car.js"></script>
+</head>
+
+<body>
+    <!-- header begin -->
+    <header>
+        <div class="BHeader">
+            <div class="container clearfix">
+                <div class="afternoon fl">
+                    <ul class="clearfix">
+                        <li>下午好，欢迎光临锦宏颜！</li>
+                        <li>
+                            <a href="javascript:;">
+                                <span class="iconfont">&#xe627;</span>
+                                收藏我们
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="fr">
+                    <div class="welcome">
+                        <ul class="clearfix">
+                            <li>欢迎光临本店！</li>
+                            <li><a href="login.html">[请登录]</a></li>
+                            <li>新用户</li>
+                            <li><a href="register.html">[免费注册]</a></li>
+                        </ul>
+                    </div>
+                    <div class="items">
+                        <ul class="clearfix">
+                            <li class="itemsLi">|</li>
+                            <li><a href="javascript:;">我的订单</a></li>
+                            <li class="itemsLi">|</li>
+                            <li><a href="car.html">购物车</a></li>
+                            <li class="itemsLi">|</li>
+                            <li><a href="javascript:;">联系我们</a></li>
+                            <li class="itemsLi">|</li>
+                            <li class="menu">
+                                <a href="javascript:;">客服服务<span class="iconfont arrow">&#xe601;</span></a>
+                                <div class="dropdown1">
+                                    <p><a href="javascript:;">客户服务</a></p>
+                                    <p><a href="javascript:;">客户服务</a></p>
+                                    <p><a href="javascript:;">客户服务</a></p>
+                                    <p><a href="javascript:;">客户服务</a></p>
+                                </div>
+                            </li>
+                            <li class="itemsLi">|</li>
+                            <li class="menu"><a href="javascript:;"><span class="iconfont arrow">&#xe638;</span>手机版<span
+                                        class="iconfont arrow">&#xe601;</span></a>
+                                <div class="dropdown2">
+                                    <p><a href="javascript:;">手机版</a></p>
+                                    <p><a href="javascript:;">手机版</a></p>
+                                    <p><a href="javascript:;">手机版</a></p>
+                                    <p><a href="javascript:;">手机版</a></p>
+                                </div>
+                            </li>
+                            <li class="itemsLi">|</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="head-box clearfix">
+                <div class="head-logo fl">
+                    <a href="javascript:;">
+                        <img src="../images/logo.jpg" alt="">
+                    </a>
+                </div>
+                <div class="head-form fl">
+                    <form action="#">
+                        <input type="text" autocomplete="off" placeholder="生活用品">
+                        <button>搜索</button>
+                    </form>
+                    <div class="words-text">
+                        <a href="javasctipt:;">苹果</a>
+                        <a href="javasctipt:;">香蕉</a>
+                        <a href="javasctipt:;">菠萝</a>
+                        <a href="javasctipt:;">西红柿</a>
+                        <a href="javasctipt:;">橙子</a>
+                        <a href="javasctipt:;">苹果</a>
+                    </div>
+                </div>
+                <div class="head-car fr">
+                    <a href="car.html">
+                            <span class="iconfont car">&#xe6cf;</span>
+                            <div class="car-text">
+                                <span>我的购物车</span>
+                                <span class="iconfont">&#xe62d;</span>
+                            </div>
+                            <span class="num">0</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="navs">
+            <div class="container navs-all">
+                <div class="pull-down">
+                    <h2 class="pull-down-title">全部产品分类</h2>
+                </div>
+                <ul class="item-list">
+                    <li><a href="index.html">首页</a></li>
+                    <li><a href="list.html">产品列表</a></li>
+                    <li><a href="javascript:;">限时特卖</a></li>
+                    <li><a href="javascript:;">联系我们</a></li>
+                    <li><a href="javascript:;">鲜盟人才</a></li>
+                    <li><a href="javascript:;">鲜盟金融</a></li>
+                    <li><a href="javascript:;">鲜盟投资</a></li>
+                    <li><a href="details.html">销售品牌</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <!-- header end  -->
+
+    <!-- commodity begin -->
+    <section id="wrapper">
+        <div class="container">
+            <div class="commodity-img">
+                <img src="../images/flow.jpg" alt="">
+            </div>
+            <div class="commodity-msg">
+                <div class="commodity-title clearfix">
+                    <div class="title-name fl">商品名称</div>
+                    <ul class="fr">
+                        <li>单价</li>
+                        <li>购买数量</li>
+                        <li>小计</li>
+                        <li>操作</li>
+                    </ul>
+                </div>
+                <div class="commodity-content">
+                    <div class="car-item clearfix">
+                        <div class="p-checkbox fl">
+                            <input type="checkbox" class="j-checkbox">
+                        </div>
+                        <div class="p-goods fl">
+                            <div class="goods-img fl">
+                                <img src="../images/fruit1.jpg" alt="">
+                            </div>
+                            <div class="goods-msg fr">金龙鱼 东北大米 蟹稻共生 盘锦大米5KG</div>
+                        </div>
+                        <div class="p-price fl">￥69.50</div>
+                        <div class="p-num fl">
+                            <a href="javascript:;" class="reduce">-</a>
+                            <input type="text" class="txt" value="1">
+                            <a href="javascript:;" class="add">+</a>
+                        </div>
+                        <div class="x-price fl">￥69.50</div>
+                        <div class="del fl"><a href="javascript:;">删除</a></div>
+                    </div>
+                    <div class="car-item clearfix">
+                        <div class="p-checkbox fl">
+                            <input type="checkbox" class="j-checkbox">
+                        </div>
+                        <div class="p-goods fl">
+                            <div class="goods-img fl">
+                                <img src="../images/fruit2.jpg" alt="">
+                            </div>
+                            <div class="goods-msg fr">金龙鱼 东北大米 蟹稻共生 盘锦大米5KG</div>
+                        </div>
+                        <div class="p-price fl">￥39.50</div>
+                        <div class="p-num fl">
+                            <a href="javascript:;" class="reduce">-</a>
+                            <input type="text" class="txt" value="1">
+                            <a href="javascript:;" class="add">+</a>
+                        </div>
+                        <div class="x-price fl">￥39.50</div>
+                        <div class="del fl"><a href="javascript:;">删除</a></div>
+                    </div>
+                    <div class="car-item clearfix">
+                        <div class="p-checkbox fl">
+                            <input type="checkbox" class="j-checkbox">
+                        </div>
+                        <div class="p-goods fl">
+                            <div class="goods-img fl">
+                                <img src="../images/fruit1.jpg" alt="">
+                            </div>
+                            <div class="goods-msg fr">金龙鱼 东北大米 蟹稻共生 盘锦大米5KG</div>
+                        </div>
+                        <div class="p-price fl">￥69.50</div>
+                        <div class="p-num fl">
+                            <a href="javascript:;" class="reduce">-</a>
+                            <input type="text" class="txt" value="1">
+                            <a href="javascript:;" class="add">+</a>
+                        </div>
+                        <div class="x-price fl">￥69.50</div>
+                        <div class="del fl"><a href="javascript:;">删除</a></div>
+                    </div>
+                    <div class="car-item clearfix">
+                        <div class="p-checkbox fl">
+                            <input type="checkbox" class="j-checkbox">
+                        </div>
+                        <div class="p-goods fl">
+                            <div class="goods-img fl">
+                                <img src="../images/fruit2.jpg" alt="">
+                            </div>
+                            <div class="goods-msg fr">金龙鱼 东北大米 蟹稻共生 盘锦大米5KG</div>
+                        </div>
+                        <div class="p-price fl">￥39.50</div>
+                        <div class="p-num fl">
+                            <a href="javascript:;" class="reduce">-</a>
+                            <input type="text" class="txt" value="1">
+                            <a href="javascript:;" class="add">+</a>
+                        </div>
+                        <div class="x-price fl">￥39.50</div>
+                        <div class="del fl"><a href="javascript:;">删除</a></div>
+                    </div>
+                </div>
+                <div class="commodity-total clearfix">
+                    <div class="select-all fl">
+                        <input type="checkbox" class="checkAll">全选
+                    </div>
+                    <div class="operation fl">
+                        <a href="javascript:;">删除选中的商品</a>
+                    </div>
+                    <div class="right-sum fr">
+                        <div class="amout-sum fl">已选<em>1</em>件商品</div>
+                        <div class="price-sum fl">总价：<em>￥39.50</em></div>
+                        <div class="btn-sum fl">去结算</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- commodity end -->
+
+    <!-- buy begin -->
+    <section id="wrapper">
+        <div class="container buy">
+            <div class="buy-title">推荐购买</div>
+            <div class="buy-content">
+                <div class="buy-imgs">
+                    <ul class="clearfix">
+                        <li>
+                            <div class="buy-img">
+                                <a href="javascript:;">
+                                    <img src="../images/buy1.jpg" alt="">
+                                    <p>光阴莫斯氨酸牛奶 巴氏杀菌常温200*12盒砖石装</p>
+                                    <div class="price">
+                                        <span class="price-en">RMB</span>
+                                        <span class="price-zh">123</span>
+                                    </div>
+                                </a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="buy-img">
+                                <a href="javascript:;">
+                                    <img src="../images/buy2.jpg" alt="">
+                                    <p>光阴莫斯氨酸牛奶 巴氏杀菌常温200*12盒砖石装</p>
+                                    <div class="price">
+                                        <span class="price-en">RMB</span>
+                                        <span class="price-zh">123</span>
+                                    </div>
+                                </a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="buy-img">
+                                <a href="javascript:;">
+                                    <img src="../images/buy3.jpg" alt="">
+                                    <p>光阴莫斯氨酸牛奶 巴氏杀菌常温200*12盒砖石装</p>
+                                    <div class="price">
+                                        <span class="price-en">RMB</span>
+                                        <span class="price-zh">123</span>
+                                    </div>
+                                </a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="buy-img">
+                                <a href="javascript:;">
+                                    <img src="../images/buy4.jpg" alt="">
+                                    <p>光阴莫斯氨酸牛奶 巴氏杀菌常温200*12盒砖石装</p>
+                                    <div class="price">
+                                        <span class="price-en">RMB</span>
+                                        <span class="price-zh">123</span>
+                                    </div>
+                                </a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="buy-img">
+                                <a href="javascript:;">
+                                    <img src="../images/buy5.jpg" alt="">
+                                    <p>光阴莫斯氨酸牛奶 巴氏杀菌常温200*12盒砖石装</p>
+                                    <div class="price">
+                                        <span class="price-en">RMB</span>
+                                        <span class="price-zh">123</span>
+                                    </div>
+                                </a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="buy-img">
+                                <a href="javascript:;">
+                                    <img src="../images/buy6.jpg" alt="">
+                                    <p>光阴莫斯氨酸牛奶 巴氏杀菌常温200*12盒砖石装</p>
+                                    <div class="price">
+                                        <span class="price-en">RMB</span>
+                                        <span class="price-zh">123</span>
+                                    </div>
+                                </a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="c-btns">
+                    <a href="javasctipt:;" class="left"><span class="iconfont">&#xe604;</span></a>
+                    <a href="javascript:;" class="right"><span class="iconfont">&#xe62d;</span></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- buy end -->
+
+    <!-- service begin -->
+    <section id="wrapper">
+        <div class="service">
+            <div class="container">
+                <div class="service-ttile">
+                    <div class="icons clearfix">
+                        <img src="../images/icon2.jpg" alt="">
+                        <div class="icons-text fl">
+                            <h2>安全保证</h2>
+                            <p>多重保证机制 认证商城</p>
+                        </div>
+                    </div>
+                    <div class="icons clearfix">
+                        <img src="../images/icon3.jpg" alt="">
+                        <div class="icons-text fl">
+                            <h2>正品保证</h2>
+                            <p>正品行货 放心选购</p>
+                        </div>
+                    </div>
+                    <div class="icons clearfix">
+                        <img src="../images/icon4.jpg" alt="">
+                        <div class="icons-text fl">
+                            <h2>七天无理由退换</h2>
+                            <p>七天无理由保证消费权益</p>
+                        </div>
+                    </div>
+                    <div class="icons clearfix">
+                        <img src="../images/icon5.jpg" alt="">
+                        <div class="icons-text fl">
+                            <h2>价格保证</h2>
+                            <p>价格更低，质量更可靠</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="service-msg">
+            <div class="container clearfix">
+                <div class="service-phone fl">
+                    <img src="../images/phone.jpg" alt="">
+                </div>
+                <div class="service-text fl">
+                    <h1>400-4565-345</h1>
+                    <p>客服热线 7X24小时 贴心服务</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- service end -->
+
+    <!-- foot begin -->
+    <section id="wrapper">
+        <div class="container">
+            <div class="foot">
+                <dl>
+                    <dt>新手上路</dt>
+                    <dd><a href="javascript:;">售后流程</a></dd>
+                    <dd><a href="javascript:;">购买流程</a></dd>
+                    <dd><a href="javascript:;">订购方式</a></dd>
+                    <dd><a href="javascript:;">隐私申明</a></dd>
+                    <dd><a href="javascript:;">推荐分享说明</a></dd>
+                </dl>
+                <dl>
+                    <dt>配送与支付</dt>
+                    <dd><a href="javascript:;">售后流程</a></dd>
+                    <dd><a href="javascript:;">购买流程</a></dd>
+                    <dd><a href="javascript:;">订购方式</a></dd>
+                    <dd><a href="javascript:;">隐私申明</a></dd>
+                    <dd><a href="javascript:;">推荐分享说明</a></dd>
+                </dl>
+                <dl>
+                    <dt>售后保障</dt>
+                    <dd><a href="javascript:;">售后流程</a></dd>
+                    <dd><a href="javascript:;">购买流程</a></dd>
+                    <dd><a href="javascript:;">订购方式</a></dd>
+                    <dd><a href="javascript:;">常见问题</a></dd>
+                </dl>
+                <dl>
+                    <dt>支付方式</dt>
+                    <dd><a href="javascript:;">购买流程</a></dd>
+                    <dd><a href="javascript:;">订购方式</a></dd>
+                    <dd><a href="javascript:;">隐私申明</a></dd>
+                    <dd><a href="javascript:;">常见问题</a></dd>
+                </dl>
+                <dl>
+                    <dt>帮助中心</dt>
+                    <dd><a href="javascript:;">售后流程</a></dd>
+                    <dd><a href="javascript:;">购买流程</a></dd>
+                    <dd><a href="javascript:;">订购方式</a></dd>
+                    <dd><a href="javascript:;">常见问题</a></dd>
+                </dl>
+            </div>
+        </div>
+    </section>
+    <!-- foot-end -->
+
+    <!-- about begin -->
+    <section id="wrapper">
+        <div class="container">
+            <div class="about">
+                <ul class="clearfix">
+                    <li><a href="javascript:;">关于我们</a></li>
+                    <li>|</li>
+                    <li><a href="javascript:;">公司信息披露</a></li>
+                    <li>|</li>
+                    <li><a href="javascript:;">加入我们</a></li>
+                    <li>|</li>
+                    <li><a href="javascript:;">联系我们</a></li>
+                    <li>|</li>
+                    <li><a href="javascript:;">版权声明</a></li>
+                    <li>|</li>
+                    <li><a href="javascript:;">隐私声明</a></li>
+                    <li>|</li>
+                    <li><a href="javascript:;">网站地图</a></li>
+                </ul>
+            </div>
+            <div class="copy">
+                <ul class="clearfix">
+                    <li>蜀ICP备11017033号</li>
+                    <li>Copyright @2011</li>
+                    <li>成都福际生物科技有限公司</li>
+                    <li>All Rights Reserved.</li>
+                    <li>Technical</li>
+                    <li>support;CDDGG Group</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <!-- about end -->
+
+    <!-- tools begin -->
+    <div class="tools">
+        <ul>
+            <li>
+                <a href="login.html" title="用户">
+                    <div class="tools-img">
+                        <img src="../images/icon6.png" alt="">
+                    </div>
+                    <p>用户</p>
+                </a>
+            </li>
+            <li>
+                <a href="car.html" title="购物车">
+                    <div class="tools-img">
+                        <img src="../images/icon7.png" alt="">
+                    </div>
+                    <p>购物车</p>
+                </a>
+            </li>
+            <li>
+                <a href="javasctipt:;" title="客服">
+                    <div class="tools-img">
+                        <img src="../images/icon8.png" alt="">
+                    </div>
+                    <p>客服</p>
+                </a>
+            </li>
+            <li>
+                <a href="javasctipt:;" title="微信">
+                    <div class="tools-img">
+                        <img src="../images/icon9.png" alt="">
+                    </div>
+                    <p>微信</p>
+                </a>
+            </li>
+            <li>
+                <a href="javasctipt:;" title="收藏">
+                    <div class="tools-img">
+                        <img src="../images/icon10.png" alt="">
+                    </div>
+                    <p>收藏</p>
+                </a>
+            </li>
+            <li>
+                <a href="javasctipt:;" title="足迹">
+                    <div class="tools-img">
+                        <img src="../images/icon11.png" alt="">
+                    </div>
+                    <p>足迹</p>
+                </a>
+            </li>
+            <li>
+                <a href="javasctipt:;" title="反馈">
+                    <div class="tools-img">
+                        <img src="../images/icon12.png" alt="">
+                    </div>
+                    <p>反馈</p>
+                </a>
+            </li>
+            <li class="toTop">
+                <a href="javasctipt:;" title="返回顶部">
+                    <div class="tools-img">
+                        <img src="../images/icon13.png" alt="">
+                    </div>
+                    <p>返回顶部</p>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <!-- tools end -->
+</body>
+
+</html>

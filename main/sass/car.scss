@@ -1,0 +1,206 @@
+@import "compass/reset";
+@import "compass/css3";
+
+.commodity-img{
+    padding: 10px 0;
+}
+.commodity-msg{
+    width: 100%;
+    border-bottom: none;
+    .commodity-title{
+        font-size: 14px;
+        background: #ededed;
+        border-bottom: 1px solid #DDD;
+        .title-name{
+            padding: 0 235px;
+            line-height: 40px;
+            display: inline-block;
+        }
+        ul{
+            li{
+                float: left;
+                padding-right: 100px;
+                line-height: 40px;
+            }
+        }
+    }
+}
+.commodity-content{
+    .car-item{
+        position: relative;
+        padding: 15px 0;
+        border: 1px solid #DDD;
+        border-top: none;
+        line-height: 20px;
+        .p-checkbox{
+            padding: 30px;
+            input{
+                cursor: pointer;
+            }
+        }
+        .goods-msg{
+            padding: 30px 0 0 30px;
+            color: red;
+        }
+        .p-price{
+            font-size: 14px;
+            padding: 30px 70px 0 250px;
+        }
+        .p-num{
+            padding: 30px 0;
+            input{
+                float: left;
+                width: 40px;
+                height: 20px;
+                outline: none;
+                text-align: center;
+                border: 1px solid #DDD;
+            }
+            a{
+                width: 20px;
+                height: 20px;
+                float: left;
+                text-align: center;
+                color: #666;
+                display: block;
+                border: 1px solid #DDD;
+                background: #efefef;
+            }
+        }
+        .x-price{
+            font-size: 14px;
+            color: red;
+            padding: 30px 0 0 70px;
+        }
+        .del{
+            position: absolute;
+            top: 50%;
+            right: 100px;
+            margin-top: -14px;
+            font-size: 14px;
+            a{
+                color: red;
+            }
+        }
+        &:hover{
+            background: #f1fcf3;
+        }
+    }
+}
+.commodity-total{
+    margin: 30px 0;
+    border: 1px solid #DDD;
+    .select-all{
+        padding: 20px 30px;
+        color: #b2b2b2;
+        input{
+            cursor: pointer;
+        }
+    }
+    .operation{
+        padding: 20px;
+        a{
+            color: #b2b2b2;
+            &:hover{
+                color: #FF7200;
+            }
+        }
+    }
+    .right-sum{
+        .amout-sum{
+            color: #b2b2b2;
+            padding: 0 10px;
+            line-height: 60px;
+            em{
+                color: red;
+                padding: 0 3px;
+            }
+        }
+        .price-sum{
+            color: #b2b2b2;
+            line-height: 60px;
+            em{
+                color: red;
+                font-size: 14px;
+                font-weight: bold;
+            }
+        }
+        .btn-sum{
+            width: 100px;
+            height: 60px;
+            text-align: center;
+            color: #fff;
+            background: red;
+            font-size: 16px;
+            font-weight: bold;
+            line-height: 60px;
+            margin-left: 20px;
+            cursor: pointer;
+        }
+    }
+}
+
+// buy
+.buy{
+    border: 1px solid #DDD;
+    .buy-title{
+        border-bottom: 1px solid #DDD;
+        font-size: 16px;
+        padding: 10px 20px;
+    }
+    .buy-content{
+        position: relative;
+        width: 100%;
+        .buy-imgs{
+            width: 1098px;
+            margin: 0 auto;
+            overflow: hidden;
+            li{
+                width: 173px;
+                float: left;
+                padding: 10px 5px;
+                .buy-img{
+                    text-align: center;
+                    p{
+                        text-align: left;
+                        line-height: 16px;
+                        padding-bottom: 10px;
+                    }
+                    .price{
+                        text-align: left;
+                        .price-en{
+                            color: #999999;
+                        }
+                        .price-zh{
+                            color: red;
+                            font-size: 14px;
+                        }
+                    }
+                }
+                &:hover{
+                    p{
+                        color: #FF7200;
+                    }
+                }
+            }
+        }
+        .c-btns{
+           a{
+            position: absolute;
+            top: 50%;
+            margin-top: -40px;
+            span{
+                font-size: 40px;
+                font-weight: normal;
+                color: #E6F3FF;
+            }
+           }
+           .left{
+               left: 10px;
+           }
+           .right{
+               right: 10px;
+           }
+        }
+    }
+}

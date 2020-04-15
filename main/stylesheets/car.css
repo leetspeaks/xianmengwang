@@ -1,0 +1,303 @@
+/* line 5, C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 4, ../sass/car.scss */
+.commodity-img {
+  padding: 10px 0;
+}
+
+/* line 7, ../sass/car.scss */
+.commodity-msg {
+  width: 100%;
+  border-bottom: none;
+}
+/* line 10, ../sass/car.scss */
+.commodity-msg .commodity-title {
+  font-size: 14px;
+  background: #ededed;
+  border-bottom: 1px solid #DDD;
+}
+/* line 14, ../sass/car.scss */
+.commodity-msg .commodity-title .title-name {
+  padding: 0 235px;
+  line-height: 40px;
+  display: inline-block;
+}
+/* line 20, ../sass/car.scss */
+.commodity-msg .commodity-title ul li {
+  float: left;
+  padding-right: 100px;
+  line-height: 40px;
+}
+
+/* line 29, ../sass/car.scss */
+.commodity-content .car-item {
+  position: relative;
+  padding: 15px 0;
+  border: 1px solid #DDD;
+  border-top: none;
+  line-height: 20px;
+}
+/* line 35, ../sass/car.scss */
+.commodity-content .car-item .p-checkbox {
+  padding: 30px;
+}
+/* line 37, ../sass/car.scss */
+.commodity-content .car-item .p-checkbox input {
+  cursor: pointer;
+}
+/* line 41, ../sass/car.scss */
+.commodity-content .car-item .goods-msg {
+  padding: 30px 0 0 30px;
+  color: red;
+}
+/* line 45, ../sass/car.scss */
+.commodity-content .car-item .p-price {
+  font-size: 14px;
+  padding: 30px 70px 0 250px;
+}
+/* line 49, ../sass/car.scss */
+.commodity-content .car-item .p-num {
+  padding: 30px 0;
+}
+/* line 51, ../sass/car.scss */
+.commodity-content .car-item .p-num input {
+  float: left;
+  width: 40px;
+  height: 20px;
+  outline: none;
+  text-align: center;
+  border: 1px solid #DDD;
+}
+/* line 59, ../sass/car.scss */
+.commodity-content .car-item .p-num a {
+  width: 20px;
+  height: 20px;
+  float: left;
+  text-align: center;
+  color: #666;
+  display: block;
+  border: 1px solid #DDD;
+  background: #efefef;
+}
+/* line 70, ../sass/car.scss */
+.commodity-content .car-item .x-price {
+  font-size: 14px;
+  color: red;
+  padding: 30px 0 0 70px;
+}
+/* line 75, ../sass/car.scss */
+.commodity-content .car-item .del {
+  position: absolute;
+  top: 50%;
+  right: 100px;
+  margin-top: -14px;
+  font-size: 14px;
+}
+/* line 81, ../sass/car.scss */
+.commodity-content .car-item .del a {
+  color: red;
+}
+/* line 85, ../sass/car.scss */
+.commodity-content .car-item:hover {
+  background: #f1fcf3;
+}
+
+/* line 90, ../sass/car.scss */
+.commodity-total {
+  margin: 30px 0;
+  border: 1px solid #DDD;
+}
+/* line 93, ../sass/car.scss */
+.commodity-total .select-all {
+  padding: 20px 30px;
+  color: #b2b2b2;
+}
+/* line 96, ../sass/car.scss */
+.commodity-total .select-all input {
+  cursor: pointer;
+}
+/* line 100, ../sass/car.scss */
+.commodity-total .operation {
+  padding: 20px;
+}
+/* line 102, ../sass/car.scss */
+.commodity-total .operation a {
+  color: #b2b2b2;
+}
+/* line 104, ../sass/car.scss */
+.commodity-total .operation a:hover {
+  color: #FF7200;
+}
+/* line 110, ../sass/car.scss */
+.commodity-total .right-sum .amout-sum {
+  color: #b2b2b2;
+  padding: 0 10px;
+  line-height: 60px;
+}
+/* line 114, ../sass/car.scss */
+.commodity-total .right-sum .amout-sum em {
+  color: red;
+  padding: 0 3px;
+}
+/* line 119, ../sass/car.scss */
+.commodity-total .right-sum .price-sum {
+  color: #b2b2b2;
+  line-height: 60px;
+}
+/* line 122, ../sass/car.scss */
+.commodity-total .right-sum .price-sum em {
+  color: red;
+  font-size: 14px;
+  font-weight: bold;
+}
+/* line 128, ../sass/car.scss */
+.commodity-total .right-sum .btn-sum {
+  width: 100px;
+  height: 60px;
+  text-align: center;
+  color: #fff;
+  background: red;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 60px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+/* line 144, ../sass/car.scss */
+.buy {
+  border: 1px solid #DDD;
+}
+/* line 146, ../sass/car.scss */
+.buy .buy-title {
+  border-bottom: 1px solid #DDD;
+  font-size: 16px;
+  padding: 10px 20px;
+}
+/* line 151, ../sass/car.scss */
+.buy .buy-content {
+  position: relative;
+  width: 100%;
+}
+/* line 154, ../sass/car.scss */
+.buy .buy-content .buy-imgs {
+  width: 1098px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+/* line 158, ../sass/car.scss */
+.buy .buy-content .buy-imgs li {
+  width: 173px;
+  float: left;
+  padding: 10px 5px;
+}
+/* line 162, ../sass/car.scss */
+.buy .buy-content .buy-imgs li .buy-img {
+  text-align: center;
+}
+/* line 164, ../sass/car.scss */
+.buy .buy-content .buy-imgs li .buy-img p {
+  text-align: left;
+  line-height: 16px;
+  padding-bottom: 10px;
+}
+/* line 169, ../sass/car.scss */
+.buy .buy-content .buy-imgs li .buy-img .price {
+  text-align: left;
+}
+/* line 171, ../sass/car.scss */
+.buy .buy-content .buy-imgs li .buy-img .price .price-en {
+  color: #999999;
+}
+/* line 174, ../sass/car.scss */
+.buy .buy-content .buy-imgs li .buy-img .price .price-zh {
+  color: red;
+  font-size: 14px;
+}
+/* line 181, ../sass/car.scss */
+.buy .buy-content .buy-imgs li:hover p {
+  color: #FF7200;
+}
+/* line 188, ../sass/car.scss */
+.buy .buy-content .c-btns a {
+  position: absolute;
+  top: 50%;
+  margin-top: -40px;
+}
+/* line 192, ../sass/car.scss */
+.buy .buy-content .c-btns a span {
+  font-size: 40px;
+  font-weight: normal;
+  color: #E6F3FF;
+}
+/* line 198, ../sass/car.scss */
+.buy .buy-content .c-btns .left {
+  left: 10px;
+}
+/* line 201, ../sass/car.scss */
+.buy .buy-content .c-btns .right {
+  right: 10px;
+}

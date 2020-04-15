@@ -1,0 +1,560 @@
+/* line 5, C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 4, ../sass/details.scss */
+.p-title {
+  width: 1200px;
+  margin: 0 auto;
+  font-size: 14px;
+  padding-top: 30px;
+  text-indent: 1em;
+}
+
+/* line 12, ../sass/details.scss */
+.shopdetails {
+  width: 1200px;
+  height: 700px;
+  margin: 0 auto;
+  margin-top: 20px;
+  position: relative;
+}
+/* line 18, ../sass/details.scss */
+.shopdetails #leftbox {
+  width: 400px;
+  z-index: 999;
+  position: absolute;
+}
+/* line 22, ../sass/details.scss */
+.shopdetails #leftbox #showbox {
+  background: #eee;
+}
+/* line 24, ../sass/details.scss */
+.shopdetails #leftbox #showbox span {
+  background: url(../../images/shopdetail/whitebg.png) repeat;
+}
+/* line 28, ../sass/details.scss */
+.shopdetails #leftbox #showsum {
+  left: 25px;
+  margin-top: 10px;
+}
+/* line 31, ../sass/details.scss */
+.shopdetails #leftbox #showsum span {
+  border: 1px solid #ddd;
+}
+/* line 33, ../sass/details.scss */
+.shopdetails #leftbox #showsum span.sel {
+  border: 1px solid #f60;
+}
+/* line 38, ../sass/details.scss */
+.shopdetails #leftbox .showpage {
+  width: 400px;
+  position: relative;
+}
+/* line 41, ../sass/details.scss */
+.shopdetails #leftbox .showpage a {
+  display: block;
+  width: 15px;
+  border: 1px solid #ddd;
+  height: 60px;
+  line-height: 60px;
+  background: #eee;
+  text-align: center;
+  font-size: 18px;
+  position: absolute;
+  left: 0;
+  top: -62px;
+  text-decoration: none;
+  color: #999;
+}
+/* line 52, ../sass/details.scss */
+.shopdetails #leftbox .showpage a#shownext {
+  left: auto;
+  right: 0;
+}
+/* line 55, ../sass/details.scss */
+.shopdetails #leftbox .showpage a:hover {
+  background: #ccc;
+  color: #777;
+}
+/* line 62, ../sass/details.scss */
+.shopdetails .centerbox {
+  width: 580px;
+  height: 575px;
+  position: absolute;
+  top: 0px;
+  left: 420px;
+  z-index: 1;
+}
+/* line 69, ../sass/details.scss */
+.shopdetails .centerbox .imgname {
+  font-size: 24px;
+  color: #000;
+  font-weight: bold;
+  width: 580px;
+  height: 40px;
+  font-family: Microsoft YaHei,arial;
+  margin-bottom: 10px;
+}
+/* line 78, ../sass/details.scss */
+.shopdetails .centerbox p, .shopdetails .centerbox samp {
+  width: 580px;
+  height: 33px;
+  font-size: 12px;
+  line-height: 33px;
+  color: #666;
+  padding-left: 10px;
+}
+/* line 86, ../sass/details.scss */
+.shopdetails .centerbox .Aprice {
+  background: rgba(232, 232, 232, 0.5);
+}
+/* line 88, ../sass/details.scss */
+.shopdetails .centerbox .Aprice samp {
+  font-size: 14px;
+  text-decoration: line-through;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+/* line 94, ../sass/details.scss */
+.shopdetails .centerbox .price {
+  background: rgba(232, 232, 232, 0.5);
+}
+/* line 96, ../sass/details.scss */
+.shopdetails .centerbox .price samp {
+  color: #D00;
+  font-size: 20px;
+  font-weight: bold;
+}
+/* line 102, ../sass/details.scss */
+.shopdetails .centerbox .youhui {
+  background: rgba(232, 232, 232, 0.5);
+}
+/* line 104, ../sass/details.scss */
+.shopdetails .centerbox .youhui samp {
+  color: black;
+  font-weight: 100;
+}
+/* line 109, ../sass/details.scss */
+.shopdetails .centerbox .kefu {
+  margin-top: 10px;
+  margin-left: 10px;
+  width: 150px;
+  background-image: url(../../images/shopdetail/tell03.png);
+  background-position: right;
+  background-repeat: no-repeat;
+}
+/* line 117, ../sass/details.scss */
+.shopdetails .centerbox ul {
+  margin-left: 10px;
+  margin-top: 15px;
+}
+/* line 120, ../sass/details.scss */
+.shopdetails .centerbox ul li {
+  float: left;
+  width: 50px;
+  height: 50px;
+  margin-left: 10px;
+}
+/* line 127, ../sass/details.scss */
+.shopdetails .centerbox .kuaishi {
+  color: #666;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/* line 131, ../sass/details.scss */
+.shopdetails .centerbox .shopimg {
+  width: 49px;
+  height: 49px;
+}
+/* line 133, ../sass/details.scss */
+.shopdetails .centerbox .shopimg img {
+  margin: 2px;
+}
+/* line 137, ../sass/details.scss */
+.shopdetails .centerbox .now {
+  background: #f90;
+}
+/* line 140, ../sass/details.scss */
+.shopdetails .centerbox .chima {
+  width: 110px;
+  height: 40px;
+  background-image: url(../../images/shopdetail/tell04.png);
+  background-position: right;
+  background-repeat: no-repeat;
+  margin-left: 10px;
+  margin-top: 80px;
+}
+/* line 149, ../sass/details.scss */
+.shopdetails .centerbox .buy {
+  margin-left: 30px;
+  margin-top: 25px;
+}
+/* line 152, ../sass/details.scss */
+.shopdetails .centerbox .buy a {
+  display: block;
+  width: 200px;
+  height: 50px;
+  color: #000;
+  border: 1px solid #ccc;
+  float: left;
+  font-size: 16px;
+  font-weight: bold;
+  font-family: Microsoft YaHei,arial;
+  margin-left: 10px;
+  background-color: #fff;
+  text-align: center;
+  line-height: 50px;
+}
+/* line 167, ../sass/details.scss */
+.shopdetails .centerbox .buy #firstbuy {
+  background-color: #f00;
+  color: #fff;
+}
+/* line 172, ../sass/details.scss */
+.shopdetails .centerbox .fenx {
+  width: 200px;
+  margin-left: 50px;
+  margin-top: 50px;
+}
+/* line 177, ../sass/details.scss */
+.shopdetails .centerbox .fuwu {
+  width: 500px;
+  height: 35px;
+  margin-left: 10px;
+  background-image: url(../../images/shopdetail/tell08.png);
+  background-position: right;
+  background-repeat: no-repeat;
+  margin-top: 10px;
+}
+/* line 186, ../sass/details.scss */
+.shopdetails .centerbox .pay {
+  width: 200px;
+  height: 35px;
+  margin-left: 10px;
+  background-image: url(../../images/shopdetail/tell09.png);
+  background-position: right;
+  background-repeat: no-repeat;
+  margin-top: 10px;
+}
+/* line 196, ../sass/details.scss */
+.shopdetails .rightbox {
+  width: 150px;
+  height: 632px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-left: 1px solid #ccc;
+}
+/* line 203, ../sass/details.scss */
+.shopdetails .rightbox .name {
+  height: 30px;
+  width: 150px;
+  color: #666;
+  font-size: 16px;
+  line-height: 30px;
+  text-align: left;
+}
+/* line 209, ../sass/details.scss */
+.shopdetails .rightbox .name img {
+  margin-left: 20px;
+}
+/* line 212, ../sass/details.scss */
+.shopdetails .rightbox .name p {
+  width: 150px;
+  height: 20px;
+  font-size: 14px;
+  text-align: center;
+  line-height: 20px;
+}
+
+/* line 222, ../sass/details.scss */
+.evaluate {
+  width: 1200px;
+  height: 4000px;
+  margin: 0 auto;
+  position: relative;
+}
+/* line 227, ../sass/details.scss */
+.evaluate .classify {
+  width: 198px;
+  height: 1500px;
+}
+/* line 229, ../sass/details.scss */
+.evaluate .classify .shopsee {
+  width: 198px;
+  height: 3330px;
+  border: 1px solid #ccc;
+}
+/* line 232, ../sass/details.scss */
+.evaluate .classify .shopsee .name {
+  height: 40px;
+  width: 198px;
+  background: rgba(232, 232, 232, 0.5);
+  color: #000;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 40px;
+  text-align: center;
+}
+/* line 241, ../sass/details.scss */
+.evaluate .classify .shopsee a {
+  width: 170px;
+  margin: 0;
+  margin-top: 10px;
+  margin-left: 14px;
+  border: 0;
+}
+/* line 247, ../sass/details.scss */
+.evaluate .classify .shopsee a:hover p {
+  color: #FF7200;
+}
+/* line 251, ../sass/details.scss */
+.evaluate .classify .shopsee a img {
+  margin-top: 10px;
+}
+/* line 256, ../sass/details.scss */
+.evaluate .classify .shopsee .ex01 p {
+  margin-top: 0;
+  width: 170px;
+  height: 20px;
+  margin-left: 14px;
+  line-height: 20px;
+  font-size: 14px;
+}
+/* line 266, ../sass/details.scss */
+.evaluate .tabbedPanels {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 980px;
+  margin: 10px auto;
+  border: 1px soild #000;
+}
+/* line 273, ../sass/details.scss */
+.evaluate .tabbedPanels .tabs {
+  width: 950px;
+  height: 50px;
+  border-bottom: 2px solid #000;
+  margin-bottom: 20px;
+}
+/* line 278, ../sass/details.scss */
+.evaluate .tabbedPanels .tabs li {
+  float: left;
+}
+/* line 280, ../sass/details.scss */
+.evaluate .tabbedPanels .tabs li a {
+  width: 100px;
+  height: 40px;
+  margin-bottom: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  margin-left: 50px;
+  text-decoration: none;
+  color: #000;
+  line-height: 40px;
+  text-align: center;
+}
+/* line 291, ../sass/details.scss */
+.evaluate .tabbedPanels .tabs li a.active {
+  border-bottom: 3px solid #F30;
+}
+/* line 297, ../sass/details.scss */
+.evaluate .tabbedPanels .panelContainer {
+  width: 950px;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+/* line 301, ../sass/details.scss */
+.evaluate .tabbedPanels .panelContainer .pane-wrapper {
+  width: 650px;
+  margin: 0 auto;
+}
+/* line 306, ../sass/details.scss */
+.evaluate .tabbedPanels .panelContainer .panel .sell {
+  font-weight: bold;
+  font-size: 20px;
+  color: #000;
+  text-decoration: underline;
+}
+/* line 312, ../sass/details.scss */
+.evaluate .tabbedPanels .panelContainer .panel p {
+  margin-bottom: 20px;
+}
+/* line 315, ../sass/details.scss */
+.evaluate .tabbedPanels .panelContainer .panel img {
+  margin-left: 10px;
+}
+/* line 318, ../sass/details.scss */
+.evaluate .tabbedPanels .panelContainer .panel .judge {
+  font-size: 14px;
+  font-weight: bold;
+  color: #000;
+}
+/* line 322, ../sass/details.scss */
+.evaluate .tabbedPanels .panelContainer .panel .judge span {
+  font-size: 14px;
+  margin-left: 15px;
+}
+/* line 327, ../sass/details.scss */
+.evaluate .tabbedPanels .panelContainer .panel .judge01 {
+  height: 200px;
+  position: relative;
+}
+/* line 330, ../sass/details.scss */
+.evaluate .tabbedPanels .panelContainer .panel .judge01 .idimg {
+  width: 80px;
+}
+/* line 333, ../sass/details.scss */
+.evaluate .tabbedPanels .panelContainer .panel .judge01 .write {
+  position: absolute;
+  top: 20px;
+  left: 80px;
+}
+/* line 337, ../sass/details.scss */
+.evaluate .tabbedPanels .panelContainer .panel .judge01 .write .which {
+  color: #666;
+  font-size: 12px;
+}
+/* line 343, ../sass/details.scss */
+.evaluate .tabbedPanels .panelContainer .panel .com {
+  width: 720px;
+}
+/* line 345, ../sass/details.scss */
+.evaluate .tabbedPanels .panelContainer .panel .com .ex01 {
+  width: 218px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 30px;
+  border: solid 1px #c4c4c4;
+  float: left;
+}
+/* line 352, ../sass/details.scss */
+.evaluate .tabbedPanels .panelContainer .panel .com .ex01 figure {
+  width: 218px;
+  margin-left: 3px;
+  margin-top: 3px;
+  position: relative;
+}
+/* line 357, ../sass/details.scss */
+.evaluate .tabbedPanels .panelContainer .panel .com .ex01 figure img {
+  margin: 0;
+}
+/* line 361, ../sass/details.scss */
+.evaluate .tabbedPanels .panelContainer .panel .com .ex01 p {
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  font-size: 13px;
+  margin-bottom: 0;
+  text-decoration: none;
+  color: #836e5d;
+}
+/* line 370, ../sass/details.scss */
+.evaluate .tabbedPanels .panelContainer .panel .com .ex01 .bottom {
+  height: 20px;
+  line-height: 20px;
+  margin-bottom: 5px;
+  margin-top: 0;
+}
+/* line 375, ../sass/details.scss */
+.evaluate .tabbedPanels .panelContainer .panel .com .ex01 .bottom samp {
+  width: 146px;
+  text-align: left;
+  padding-left: 10px;
+  color: #FF7200;
+  font-size: 12px;
+  float: left;
+}
+/* line 383, ../sass/details.scss */
+.evaluate .tabbedPanels .panelContainer .panel .com .ex01 .bottom input {
+  width: 50px;
+  height: 20px;
+  background: #FF7200;
+  color: #fff;
+  float: left;
+  margin-left: 0px;
+  border: none;
+  text-align: center;
+}
+/* line 394, ../sass/details.scss */
+.evaluate .tabbedPanels .panelContainer .panel .com figcaption {
+  position: absolute;
+  bottom: 3px;
+  width: 212px;
+  height: 40px;
+  background: rgba(0, 0, 0, 0.4);
+  line-height: 40px;
+  text-align: center;
+  font-size: 12px;
+  color: #fff;
+}
+/* line 408, ../sass/details.scss */
+.evaluate .tabbedPanels .panelContainer .panel .com a:hover figure figcaption {
+  display: block;
+  width: 212px;
+  height: 193px;
+  line-height: 193px;
+  text-align: center;
+  font-size: 12px;
+  color: #fff;
+}

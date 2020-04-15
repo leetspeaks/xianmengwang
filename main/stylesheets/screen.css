@@ -1,0 +1,579 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* line 5, C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 9, ../sass/screen.scss */
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  color: #222;
+}
+
+/* line 15, ../sass/screen.scss */
+#wrapper {
+  margin-bottom: 30px;
+}
+
+/* line 18, ../sass/screen.scss */
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  font-size: 12px;
+}
+
+/* line 23, ../sass/screen.scss */
+.fl {
+  float: left;
+}
+
+/* line 27, ../sass/screen.scss */
+.fr {
+  float: right;
+}
+
+/* line 30, ../sass/screen.scss */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+/* line 35, ../sass/screen.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 40, ../sass/screen.scss */
+.BHeader {
+  width: 100%;
+  height: 30px;
+  line-height: 30px;
+  background: #F9FAFA;
+  border-bottom: 1px solid #D7D7D7;
+}
+
+/* line 47, ../sass/screen.scss */
+.afternoon {
+  display: inline-block;
+}
+/* line 50, ../sass/screen.scss */
+.afternoon ul li {
+  float: left;
+}
+/* line 53, ../sass/screen.scss */
+.afternoon ul li a:hover {
+  color: #FF3300;
+}
+/* line 56, ../sass/screen.scss */
+.afternoon ul li a span {
+  color: #FEDD4E;
+}
+
+/* line 63, ../sass/screen.scss */
+.welcome {
+  float: left;
+}
+/* line 66, ../sass/screen.scss */
+.welcome ul li {
+  float: left;
+  color: #C9C9C9;
+  padding: 0 4px;
+}
+/* line 70, ../sass/screen.scss */
+.welcome ul li a {
+  color: red;
+}
+
+/* line 76, ../sass/screen.scss */
+.items {
+  display: inline-block;
+}
+/* line 79, ../sass/screen.scss */
+.items ul li {
+  float: left;
+  color: #666;
+}
+/* line 81, ../sass/screen.scss */
+.items ul li a:hover {
+  color: #FF3300;
+}
+/* line 86, ../sass/screen.scss */
+.items ul li:hover .dropdown1 {
+  display: block;
+}
+/* line 89, ../sass/screen.scss */
+.items ul li:hover .dropdown2 {
+  display: block;
+}
+/* line 95, ../sass/screen.scss */
+.items ul li .arrow {
+  font-size: 12px;
+  padding: 5px;
+  font-weight: normal;
+}
+/* line 101, ../sass/screen.scss */
+.items ul .itemsLi {
+  float: left;
+  line-height: 30px;
+  padding: 0 10px;
+  color: #D3D3D3;
+}
+/* line 107, ../sass/screen.scss */
+.items ul .menu {
+  position: relative;
+}
+/* line 109, ../sass/screen.scss */
+.items ul .menu .dropdown1, .items ul .menu .dropdown2 {
+  position: absolute;
+  width: 90px;
+  background: #F9FAFA;
+  top: 30px;
+  left: -10px;
+  border: 1px solid #D7D7D7;
+  text-align: center;
+  border-top: none;
+  display: none;
+  z-index: 99;
+}
+/* line 121, ../sass/screen.scss */
+.items ul .menu .dropdown2 {
+  left: -4px;
+}
+
+/* line 127, ../sass/screen.scss */
+.head-box {
+  margin-bottom: 46px;
+}
+/* line 129, ../sass/screen.scss */
+.head-box .head-logo {
+  padding-top: 10px;
+}
+/* line 132, ../sass/screen.scss */
+.head-box .head-form {
+  margin: 35px 0 0 80px;
+}
+/* line 134, ../sass/screen.scss */
+.head-box .head-form input {
+  width: 488px;
+  height: 38px;
+  border: 3px solid #FF7200;
+  outline: none;
+  float: left;
+  padding-left: 6px;
+}
+/* line 142, ../sass/screen.scss */
+.head-box .head-form button {
+  width: 88px;
+  height: 44px;
+  outline: none;
+  float: left;
+  text-align: center;
+  display: block;
+  border: 3px solid #FF7200;
+  background: #FF7200;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+}
+/* line 155, ../sass/screen.scss */
+.head-box .head-form .words-text {
+  margin-top: 50px;
+}
+/* line 157, ../sass/screen.scss */
+.head-box .head-form .words-text a {
+  padding: 0 8px;
+}
+/* line 159, ../sass/screen.scss */
+.head-box .head-form .words-text a:hover {
+  color: #FF7200;
+}
+/* line 165, ../sass/screen.scss */
+.head-box .head-car {
+  position: relative;
+  width: 140px;
+  text-align: center;
+  height: 34px;
+  cursor: pointer;
+  line-height: 34px;
+  margin-top: 40px;
+  background: #F9F9F9;
+  border: 1px solid #DDDDDD;
+}
+/* line 175, ../sass/screen.scss */
+.head-box .head-car .car {
+  font-size: 28px;
+  color: #FF7200;
+  float: left;
+  padding-left: 10px;
+}
+/* line 181, ../sass/screen.scss */
+.head-box .head-car .cat-text {
+  display: inline-block;
+}
+/* line 184, ../sass/screen.scss */
+.head-box .head-car .num {
+  position: absolute;
+  top: -8px;
+  left: 100px;
+  width: 15px;
+  height: 15px;
+  line-height: 15px;
+  display: block;
+  color: #fff;
+  border-top-left-radius: 40%;
+  border-top-right-radius: 40%;
+  border-bottom-right-radius: 40%;
+  background: #FF7200;
+}
+
+/* line 201, ../sass/screen.scss */
+.navs {
+  width: 100%;
+  border-bottom: 3px solid #FF7200;
+}
+/* line 204, ../sass/screen.scss */
+.navs .navs-all {
+  position: relative;
+  height: 35px;
+}
+/* line 207, ../sass/screen.scss */
+.navs .navs-all .pull-down {
+  position: absolute;
+  z-index: 10;
+}
+/* line 210, ../sass/screen.scss */
+.navs .navs-all .pull-down .pull-down-title {
+  height: 38px;
+  width: 190px;
+  background: #FF7200;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: normal;
+  text-align: center;
+  line-height: 35px;
+}
+/* line 220, ../sass/screen.scss */
+.navs .navs-all .pull-down .pull-down-list {
+  width: 190px;
+  position: relative;
+  z-index: 2;
+}
+/* line 224, ../sass/screen.scss */
+.navs .navs-all .pull-down .pull-down-list li {
+  background: #FF8C2F;
+  padding: 5px 10px;
+  border-bottom: 1px solid #FFAF6D;
+}
+/* line 229, ../sass/screen.scss */
+.navs .navs-all .pull-down .pull-down-list li a i {
+  color: #fff;
+}
+/* line 232, ../sass/screen.scss */
+.navs .navs-all .pull-down .pull-down-list li a span {
+  color: #fff;
+  line-height: 22px;
+}
+/* line 236, ../sass/screen.scss */
+.navs .navs-all .pull-down .pull-down-list li a .title {
+  font-size: 16px;
+}
+/* line 240, ../sass/screen.scss */
+.navs .navs-all .pull-down .pull-down-list li:hover {
+  background: #f8f8f8;
+}
+/* line 243, ../sass/screen.scss */
+.navs .navs-all .pull-down .pull-down-list li:hover a i {
+  color: #222;
+}
+/* line 246, ../sass/screen.scss */
+.navs .navs-all .pull-down .pull-down-list li:hover a span {
+  color: #222;
+  line-height: 22px;
+}
+/* line 250, ../sass/screen.scss */
+.navs .navs-all .pull-down .pull-down-list li:hover a .title {
+  font-size: 16px;
+}
+/* line 259, ../sass/screen.scss */
+.navs .navs-all .list-con {
+  width: 809px;
+  position: absolute;
+  z-index: 2;
+  top: 38px;
+  left: 190px;
+  display: none;
+  overflow: hidden;
+  background: #f8f8f8;
+  border-right: 1px solid #C9C9C9;
+  border-bottom: 1px solid #C9C9C9;
+}
+/* line 270, ../sass/screen.scss */
+.navs .navs-all .list-con .con-items {
+  text-align: left;
+  padding-top: 23px;
+  padding-left: 30px;
+}
+/* line 274, ../sass/screen.scss */
+.navs .navs-all .list-con .con-items li {
+  display: block;
+  width: 77px;
+  line-height: 20px;
+  margin: 20px;
+  height: 27px;
+  text-align: right;
+  border: 1px solid #943B57;
+}
+/* line 282, ../sass/screen.scss */
+.navs .navs-all .list-con .con-items li a {
+  color: #943B57;
+}
+/* line 285, ../sass/screen.scss */
+.navs .navs-all .list-con .con-items li span {
+  color: #943B57;
+}
+/* line 290, ../sass/screen.scss */
+.navs .navs-all .list-con p {
+  padding: 20px;
+}
+/* line 293, ../sass/screen.scss */
+.navs .navs-all .list-con p a:hover {
+  color: #FF7200;
+}
+/* line 298, ../sass/screen.scss */
+.navs .navs-all .list-con .img-items {
+  width: 205px;
+  padding-top: 40px;
+  margin-right: 40px;
+}
+/* line 302, ../sass/screen.scss */
+.navs .navs-all .list-con .img-items li {
+  float: left;
+  border: 1px solid #C9C9C9;
+}
+/* line 309, ../sass/screen.scss */
+.navs .item-list {
+  margin-left: 190px;
+}
+/* line 311, ../sass/screen.scss */
+.navs .item-list li {
+  font-size: 16px;
+  display: inline-block;
+}
+/* line 314, ../sass/screen.scss */
+.navs .item-list li a {
+  display: block;
+  padding: 10px;
+}
+/* line 317, ../sass/screen.scss */
+.navs .item-list li a:hover {
+  background: #FF7200;
+  color: #fff;
+}
+
+/* line 327, ../sass/screen.scss */
+.service {
+  width: 100%;
+  padding: 30px 0;
+  height: 60px;
+  border-top: 1px solid #DDDDDD;
+}
+/* line 332, ../sass/screen.scss */
+.service .icons {
+  margin: 0 70px 0 0;
+  float: left;
+}
+/* line 335, ../sass/screen.scss */
+.service .icons img {
+  float: left;
+}
+/* line 338, ../sass/screen.scss */
+.service .icons .icons-text {
+  line-height: 25px;
+}
+/* line 340, ../sass/screen.scss */
+.service .icons .icons-text h2 {
+  font-size: 20px;
+  margin-top: 8px;
+  font-weight: bold;
+}
+/* line 345, ../sass/screen.scss */
+.service .icons .icons-text p {
+  font-size: 14px;
+  color: #666;
+}
+
+/* line 352, ../sass/screen.scss */
+.service-msg {
+  width: 100%;
+  height: 70px;
+  background: black;
+}
+/* line 356, ../sass/screen.scss */
+.service-msg .service-phone {
+  padding-top: 16px;
+}
+/* line 360, ../sass/screen.scss */
+.service-msg .service-text h1 {
+  color: #fff;
+  float: left;
+  font-size: 40px;
+  padding: 15px 10px;
+  font-weight: bold;
+}
+/* line 367, ../sass/screen.scss */
+.service-msg .service-text p {
+  float: left;
+  color: #fff;
+  line-height: 68px;
+  font-size: 14px;
+}
+
+/* line 377, ../sass/screen.scss */
+.foot {
+  height: 150px;
+  border-bottom: 1px solid #DDDDDD;
+}
+/* line 380, ../sass/screen.scss */
+.foot dl {
+  float: left;
+  padding: 0 80px;
+}
+/* line 383, ../sass/screen.scss */
+.foot dl dt {
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 30px;
+}
+/* line 388, ../sass/screen.scss */
+.foot dl dd {
+  padding: 0 0 10px 0;
+}
+/* line 391, ../sass/screen.scss */
+.foot dl dd:hover a {
+  color: #FF3300;
+}
+
+/* line 401, ../sass/screen.scss */
+.about li {
+  float: left;
+  padding: 0 5px;
+}
+/* line 405, ../sass/screen.scss */
+.about li:hover a {
+  color: #FF3300;
+}
+
+/* line 411, ../sass/screen.scss */
+.copy {
+  padding-left: 5px;
+}
+/* line 413, ../sass/screen.scss */
+.copy li {
+  float: left;
+  padding: 15px 0;
+  color: #666;
+}
+
+/* line 420, ../sass/screen.scss */
+.tools {
+  width: 40px;
+  background: #000;
+  position: fixed;
+  right: 0;
+  top: 30px;
+  z-index: 999;
+  display: none;
+  border-left: 3px solid #FF6600;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+/* line 431, ../sass/screen.scss */
+.tools li {
+  margin: 10px 0;
+}
+/* line 434, ../sass/screen.scss */
+.tools li a .tools-img {
+  width: 30px;
+  height: 30px;
+  margin: auto;
+}
+/* line 438, ../sass/screen.scss */
+.tools li a .tools-img img {
+  width: 100%;
+}
+/* line 442, ../sass/screen.scss */
+.tools li a p {
+  color: #fff;
+  display: block;
+  width: 30px;
+  text-align: center;
+  margin: 10px 0 0 5px;
+  font-size: 12px;
+  line-height: 15px;
+}
